@@ -1,71 +1,36 @@
 {
-  "title": "Block Drift City",
-  "tagline": "Build, drift, survive",
-  "description": "A solo Minecraft mashup where you build your own block city, gather resources, craft upgrades, and drift through streets, desert strips, and mountain passes. Start with a garage, unlock your first ride, and expand into a survival sandbox built around speed, progression and open-world exploration.",
-  "kind": "mashup",
-  "mode": "solo",
-  "requiredGames": [
+  "schemaVersion": 1,
+  "mode": "installed",
+  "games": [
     {
       "slug": "minecraft-java",
       "role": "primary",
-      "required": true,
-      "version": "Java Edition"
-    },
+      "version": "1.20.1"
+    }
+  ],
+  "components": [
     {
-      "slug": "pc-drift-legends-2",
-      "role": "companion",
-      "required": true,
-      "version": "Installed copy on player PC"
+      "id": "main",
+      "fileName": "block-drift-city-0.1.1.jar",
+      "kind": "main",
+      "label": "Block Drift City",
+      "required": true
     }
   ],
   "launch": {
-    "hostGame": "minecraft-java",
-    "primaryLauncher": "Minecraft Java Edition",
-    "companionReady": true,
-    "oneClick": true,
-    "notes": "Runs in the Minecraft host. Drift Legends 2 provides the driving feel and companion role without shipping copied files in the upload."
+    "kind": "game"
   },
-  "content": {
-    "safeForPlayers": true,
-    "multiplayer": false,
-    "usesPlayerCopies": true,
-    "copiedGameAssets": false
-  },
-  "credits": {
-    "author": "Your project author",
-    "hostGame": "Minecraft: Java Edition",
-    "companionGame": "Drift Legends 2",
-    "modLoader": "Fabric"
-  },
-  "license": {
-    "project": "Choose project license before publish",
-    "thirdPartyAssets": "Must be clearly credited and shareable before upload",
-    "remix": "Use the project’s own choice; keep explicit permission if required"
-  },
-  "components": [
+  "mappings": [
     {
-      "fileName": "block-drift-city-0.1.0.jar",
-      "type": "mod",
-      "destination": "{minecraft-instance}/mods",
-      "required": true
-    },
-    {
-      "fileName": "README.md",
-      "type": "readme",
-      "destination": "./README.md",
-      "required": true
-    },
-    {
-      "fileName": "melty.json",
-      "type": "metadata",
-      "destination": "./melty.json",
-      "required": true
+      "component": "main",
+      "from": "",
+      "to": "{minecraft-instance}/mods"
     }
   ],
-  "install": {
-    "game": "minecraft-java",
-    "loader": "fabric",
-    "targetFolder": "{minecraft-instance}/mods"
-  },
-  "status": "prototype-ready"
+  "requirements": [
+    {
+      "kind": "loader",
+      "id": "fabric"
+    }
+  ]
 }

@@ -5,24 +5,23 @@ Required host game:
 - Minecraft: Java Edition
 
 Companion game:
-- Drift Legends 2 (real companion role, not a fake stand-in)
+- None; this prototype does not integrate with Drift Legends 2
 
 Mode:
 - Solo sandbox
 
 Build artifact:
-- build/libs/block-drift-city-0.1.0.jar
+- build/libs/block-drift-city-0.1.1.jar
 
 Important:
 - This is a working prototype mod scaffold, not a final production release.
 - To publish through Melty, sign in to Melty Studio, create the listing, upload the jar, attach a real gameplay screenshot, and validate one-click play.
 
-Listing:
-Title: Block Drift City
-Tagline: Build, drift, survive
-Description: A solo Minecraft mashup where you build your own block city, gather resources, craft upgrades, and drift through streets, desert strips, and mountain passes. Start with a garage, unlock your first ride, and expand into a survival sandbox built around speed, progression and open-world exploration.
+Melty recipe:
+- melty.json describes a Fabric mod for Minecraft Java Edition 1.20.1
+- Only the JAR is listed as a required release component
 
 Files ready:
 - README.md
 - melty.json
-- build/libs/block-drift-city-0.1.0.jar
+- build/libs/block-drift-city-0.1.1.jar
