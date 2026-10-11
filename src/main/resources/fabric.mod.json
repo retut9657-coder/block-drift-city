@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "blockdriftcity",
+  "version": "${version}",
+  "name": "Block Drift City",
+  "description": "A solo Minecraft mashup where you build, drift, and survive in a block city.",
+  "authors": [
+    "Copilot"
+  ],
+  "contact": {
+    "homepage": "https://example.com/block-drift-city"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.blockdriftcity.BlockDriftCity"
+    ],
+    "client": [
+      "com.blockdriftcity.BlockDriftCityClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "~1.20.1"
+  }
+}

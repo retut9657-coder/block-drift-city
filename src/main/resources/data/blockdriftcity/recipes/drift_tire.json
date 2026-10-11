@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "blockdriftcity:iron_scrap" },
+    "S": { "item": "minecraft:slime_ball" }
+  },
+  "result": { "item": "blockdriftcity:drift_tire", "count": 1 }
+}

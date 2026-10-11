@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "id": "iron_scrap", "name": "Iron Scrap", "type": "resource", "rarity": "common", "stackSize": 64, "useCase": "repair_and_upgrade", "unlockTier": 1 },
+    { "id": "drift_tire", "name": "Drift Tire", "type": "upgrade", "rarity": "uncommon", "stackSize": 16, "useCase": "drift_grip", "unlockTier": 2 },
+    { "id": "engine_core", "name": "Engine Core", "type": "upgrade", "rarity": "rare", "stackSize": 8, "useCase": "speed_upgrade", "unlockTier": 2 },
+    { "id": "repair_kit", "name": "Repair Kit", "type": "tool", "rarity": "common", "stackSize": 8, "useCase": "vehicle_repair", "unlockTier": 1 },
+    { "id": "turbo_chip", "name": "Turbo Chip", "type": "upgrade", "rarity": "epic", "stackSize": 4, "useCase": "acceleration_boost", "unlockTier": 3 }
+  ]
+}

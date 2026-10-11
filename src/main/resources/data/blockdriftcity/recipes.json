@@ -1,0 +1,7 @@
+{
+  "recipes": [
+    { "id": "repair_kit_recipe", "inputs": ["iron_scrap:3", "string:2"], "output": "repair_kit" },
+    { "id": "drift_tire_recipe", "inputs": ["iron_scrap:4", "coal:2"], "output": "drift_tire" },
+    { "id": "engine_core_recipe", "inputs": ["iron_scrap:8", "redstone:4"], "output": "engine_core" }
+  ]
+}

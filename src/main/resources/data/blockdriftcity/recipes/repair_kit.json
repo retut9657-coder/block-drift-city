@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "SWS",
+    " S "
+  ],
+  "key": {
+    "I": { "item": "blockdriftcity:iron_scrap" },
+    "S": { "item": "minecraft:string" },
+    "W": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "blockdriftcity:repair_kit", "count": 1 }
+}

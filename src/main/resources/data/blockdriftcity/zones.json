@@ -1,0 +1,8 @@
+{
+  "zones": [
+    { "id": "downtown", "name": "Downtown District", "biome": "plains_city", "dangerLevel": 1, "resources": ["iron_scrap", "wood", "stone"], "unlockRequirement": null },
+    { "id": "forest_edge", "name": "Forest Edge", "biome": "forest", "dangerLevel": 2, "resources": ["wood", "coal", "string"], "unlockRequirement": "first_drift" },
+    { "id": "desert_strip", "name": "Desert Strip", "biome": "desert", "dangerLevel": 3, "resources": ["sand", "iron_scrap", "redstone"], "unlockRequirement": "clear_raid" },
+    { "id": "mountain_pass", "name": "Mountain Pass", "biome": "mountains", "dangerLevel": 4, "resources": ["stone", "coal", "ore"], "unlockRequirement": "unlock_desert" }
+  ]
+}

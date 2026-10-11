@@ -1,0 +1,40 @@
+{
+  "vehicles": [
+    {
+      "id": "starter_hopper",
+      "name": "Starter Hopper",
+      "tier": 1,
+      "maxSpeed": 62,
+      "acceleration": 44,
+      "driftGrip": 52,
+      "handling": 58,
+      "fuelCost": 2,
+      "unlockMission": "build_garage",
+      "modelRef": "vehicle/starter_hopper"
+    },
+    {
+      "id": "street_runner",
+      "name": "Street Runner",
+      "tier": 2,
+      "maxSpeed": 78,
+      "acceleration": 60,
+      "driftGrip": 68,
+      "handling": 66,
+      "fuelCost": 3,
+      "unlockMission": "first_drift",
+      "modelRef": "vehicle/street_runner"
+    },
+    {
+      "id": "desert_sprint",
+      "name": "Desert Sprint",
+      "tier": 3,
+      "maxSpeed": 92,
+      "acceleration": 72,
+      "driftGrip": 76,
+      "handling": 70,
+      "fuelCost": 4,
+      "unlockMission": "unlock_desert",
+      "modelRef": "vehicle/desert_sprint"
+    }
+  ]
+}

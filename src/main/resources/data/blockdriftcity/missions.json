@@ -1,0 +1,9 @@
+{
+  "missions": [
+    { "id": "gather_iron", "name": "Gather Iron", "objective": "collect", "target": "iron_scrap", "amount": 16, "reward": "starter_hopper" },
+    { "id": "build_garage", "name": "Build a Garage", "objective": "build_structure", "target": "garage", "amount": 1, "reward": "repair_kit" },
+    { "id": "first_drift", "name": "First Drift", "objective": "drift_score", "target": 200, "amount": 1, "reward": "street_runner" },
+    { "id": "clear_raid", "name": "Clear the Raid", "objective": "defeat_enemies", "target": "raider_scavenger", "amount": 5, "reward": "drift_tire" },
+    { "id": "unlock_desert", "name": "Open the Desert Strip", "objective": "reach_zone", "target": "desert_strip", "amount": 1, "reward": "desert_sprint" }
+  ]
+}

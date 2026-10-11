@@ -1,0 +1,7 @@
+{
+  "enemies": [
+    { "id": "raider_scavenger", "name": "Raider Scavenger", "zone": "forest_edge", "health": 35, "damage": 8, "speed": 1.2, "lootDrop": "iron_scrap" },
+    { "id": "sand_wolf", "name": "Sand Wolf", "zone": "desert_strip", "health": 48, "damage": 12, "speed": 1.5, "lootDrop": "engine_core" },
+    { "id": "city_guard", "name": "City Guard", "zone": "downtown", "health": 26, "damage": 6, "speed": 0.9, "lootDrop": "repair_kit" }
+  ]
+}

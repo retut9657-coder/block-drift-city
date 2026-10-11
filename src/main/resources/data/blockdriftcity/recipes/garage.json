@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "blockdriftcity:iron_scrap" },
+    "S": { "item": "minecraft:stone" }
+  },
+  "result": { "item": "blockdriftcity:garage" }
+}
