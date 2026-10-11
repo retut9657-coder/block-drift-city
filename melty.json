@@ -23,7 +23,7 @@
     "primaryLauncher": "Minecraft Java Edition",
     "companionReady": true,
     "oneClick": true,
-    "notes": "The mashup runs inside the Minecraft host. Drift Legends 2 contributes the vehicle feel and companion gameplay without shipping copied files with the upload."
+    "notes": "Runs in the Minecraft host. Drift Legends 2 provides the driving feel and companion role without shipping copied files in the upload."
   },
   "content": {
     "safeForPlayers": true,
@@ -32,7 +32,7 @@
     "copiedGameAssets": false
   },
   "credits": {
-    "author": "Your name / project author",
+    "author": "Your project author",
     "hostGame": "Minecraft: Java Edition",
     "companionGame": "Drift Legends 2",
     "modLoader": "Fabric"
@@ -42,14 +42,30 @@
     "thirdPartyAssets": "Must be clearly credited and shareable before upload",
     "remix": "Use the project’s own choice; keep explicit permission if required"
   },
-  "package": {
-    "archiveType": "Fabric mod jar",
-    "installLocation": "Minecraft mods folder",
-    "expectedFiles": [
-      "block-drift-city-0.1.0.jar",
-      "README.md",
-      "melty.json"
-    ]
+  "components": [
+    {
+      "fileName": "block-drift-city-0.1.0.jar",
+      "type": "mod",
+      "destination": "{minecraft-instance}/mods",
+      "required": true
+    },
+    {
+      "fileName": "README.md",
+      "type": "readme",
+      "destination": "./README.md",
+      "required": true
+    },
+    {
+      "fileName": "melty.json",
+      "type": "metadata",
+      "destination": "./melty.json",
+      "required": true
+    }
+  ],
+  "install": {
+    "game": "minecraft-java",
+    "loader": "fabric",
+    "targetFolder": "{minecraft-instance}/mods"
   },
   "status": "prototype-ready"
 }
